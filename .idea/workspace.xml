@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b902f910-77b1-4232-8fc5-44c06e68281a" name="Changes" comment="sdf">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajabsandali.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/customer.tbl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lineitem.tbl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/orders.tbl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leopard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minijava/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Bank_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Bonus_Saver_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/CheckArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Checking_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Eating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/ExecutableList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/List2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Neg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Poly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/PolyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Savings_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Stack1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/folien/mySocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/input.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/intro/Fop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/intro/FopWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/intro/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/intro/MiniJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/intro/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10concat/Concat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10concat/mshvidobit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10concat/zabla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10join/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10join/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10join/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10join/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/IllegalCharException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughSpecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotEnoughUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/NotLongEnough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10pass/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10phony/CsvEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10phony/CsvToHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w10phony/PhoneBookEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11chat/Chat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11chat/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11chat/MiniJava.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11chat/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11part/BusinessPenguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11part/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11part/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/ChatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/ChatServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11pchat/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11shop/BookShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11shop/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w11shop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w2PinPop/PenguinPopulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w2fac/Factorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w2fac/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3arrays/ArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3box/CoverTheTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3pascal/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3pascal/Pascal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3simple/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w3simple/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4binom/Bino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4binom/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4fish/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4lab/FindPingu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4lab/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w4lab/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5cars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5cars/CarPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5cars/LicensePlate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5dll/IntDoubleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5dll/IntDoubleListElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5phone/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5phone/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5phone/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5zoo/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5zoo/Vivarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w5zoo/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7cal/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7cal/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7cal/EventList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7cal/InfiniteRepeatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7cal/RepeatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/DisplayColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/IntMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/RgbColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/RgbColor8Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7color/RgbaColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/BaseArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/Prism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/RegularPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7geo/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w7stack/BracketStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8genericTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8genericTree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/EmptyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w8inter/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9store/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9store/Screw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9store/ScrewDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9store/ScrewStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9streams/.Person.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9streams/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fop/w9streams/StreamIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/MiniJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/arrays/ProbabilisticSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/carol/PinguinCarol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Alloc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/FJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Halt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Instruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Less.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Simulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/minijvm/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs/SpotiJy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs2/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs2/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs2/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs2/SpotiJy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/songs2/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/CSVReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/DataScience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams/PenguinData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/streams2/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/threads/Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/threads/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/threads/TaskBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pgdp/threads/Threadpool.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Annotation" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/io/BufferedReader.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/io/PrintStream.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/io/Reader.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/AbstractStringBuilder.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/IllegalStateException.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/String.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/StringBuilder.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/StringLatin1.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/StringUTF16.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/invoke/DirectMethodHandle$Holder.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/invoke/DirectMethodHandle.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/invoke/Invokers$Holder.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/util/Comparator.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/util/Objects.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/util/function/Function.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/util/stream/Stream.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GiTTZIQaoZJOCXJpFs9GW1vyjX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "/home/lasha/IdeaProjects/kiu22wchats-kiu_kamadadze.lasha",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fop.w11chat" />
+      <recent name="fop.w10pass" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/fop" />
+      <recent name="$PROJECT_DIR$/src/pgdp/songs2" />
+      <recent name="$PROJECT_DIR$/src/pgdp" />
+      <recent name="$PROJECT_DIR$/src/fop/w10concat" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fop/w10concat" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pgdp/oop" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fop.w11part" />
+      <recent name="fop" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="folien" />
+      <recent name="fop.w7geo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pgdp.songs2" />
+      <recent name="pgdp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open kiu22wpac-kiu_javakhishvili.luka" />
+      <command value="mvn" />
+      <command value="help" />
+      <command value="javac Main.java" />
+      <command value="open LeetCode" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b902f910-77b1-4232-8fc5-44c06e68281a" name="Changes" comment="" />
+      <created>1666870412779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666870412779</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="sdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsatisfiedLinkError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="59" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <dependency id="0" />
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="93" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="96" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/pgdp/songs/Song.java</url>
+          <line>7</line>
+          <properties field="duration" class="pgdp.songs.Song" />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/pgdp/songs/Song.java</url>
+          <line>8</line>
+          <properties field="likes" class="pgdp.songs.Song" />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pgdp/streams/PenguinData.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/folien/List2.java</url>
+          <line>19</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w11part/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w11part/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-1.18.0-openjdk-amd64!/java.base/java/lang/Thread.class</url>
+          <line>224</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w11part/w11pchat/ChatServer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w11part/w11pchat/ChatServer.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w11part/w11pchat/ChatClient.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fop/w10join/Database.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/fop/w8trees/InnerNode.java</url>
+          <line>70</line>
+          <properties class="fop.w8trees.InnerNode" method="countMatches">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="java-exception">
+          <dependency master-id="0" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="pgdp.oop.Fish" memberName="y" />
+        <PinnedItemInfo parentTag="pgdp.oop.Fish" memberName="f" />
+        <PinnedItemInfo parentTag="pgdp.oop.Fish" memberName="x" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Ajabsandali$Penguin.ic" NAME="Penguin Coverage Results" MODIFIED="1667127765853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fop.w4fish.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ajabsandali$CheckArray.ic" NAME="CheckArray Coverage Results" MODIFIED="1669924380365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>folien.*</FILTER>
+    </SUITE>
+  </component>
+</project>
