@@ -1,6 +1,5 @@
 package fop.w9temp;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.time.LocalDate;
 import java.util.*;
@@ -89,7 +88,6 @@ public class StreamTemperatures extends Temperatures {
         return avgTempDeltaPerCountry;
     }
 
-    @NotNull
     private static Function<Map.Entry<String, List<Temperature>>, String> getKey() {
         return Map.Entry::getKey;
     }

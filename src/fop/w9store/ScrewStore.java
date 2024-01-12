@@ -7,7 +7,7 @@ public class ScrewStore {
     private HashMap<Screw, Integer> stock;
     private LinkedList<Order> orders;
 
-    public ScrewStore(HashMap stock, LinkedList orders) {
+    public ScrewStore(HashMap<Screw, Integer> stock, LinkedList<Order> orders) {
         this.stock = stock;
         this.orders = orders;
     }

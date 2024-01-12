@@ -15,20 +15,21 @@ public class ChatServer {
     }
 
     public static void main(String[] args) throws IOException {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("""
-                    Enter port number that you want to join.
-                    In case of a mi
+            try (Scanner scanner = new Scanner(System.in)) {
+                System.out.println("""
+                        Enter port number that you want to join.
+                        In case of a mi
 smatch of inputs, port number is set to 3000 by default.""");
-            ServerSocket serverSocket;
-            try {
-                 serverSocket= new ServerSocket(Integer.parseInt(scanner.nextLine()));
-            }catch (Exception e){
-                serverSocket = new ServerSocket(3000);
+                ServerSocket serverSocket;
+                try {
+                     serverSocket= new ServerSocket(Integer.parseInt(scanner.nextLine()));
+                }catch (Exception e){
+                    serverSocket = new ServerSocket(3000);
+                }
+                ChatServer server = new ChatServer(serverSocket);
+                System.out.println("Chosen port number " + serverSocket.getLocalPort());
+                server.startServer();
             }
-            ChatServer server = new ChatServer(serverSocket);
-            System.out.println("Chosen port number " + serverSocket.getLocalPort());
-            server.startServer();
     }
 
     public void startServer() {
