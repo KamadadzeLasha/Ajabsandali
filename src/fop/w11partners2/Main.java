@@ -22,7 +22,7 @@ public class Main {
             return;
         }
 
-        System.out.println("Peter hat " + peter.getBalance());
-        System.out.println("Paul hat " + paul.getBalance());
+        System.out.println("Peter has " + peter.getBalance());
+        System.out.println("Paul has " + paul.getBalance());
     }
 }

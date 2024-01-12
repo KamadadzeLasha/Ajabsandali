@@ -3,150 +3,142 @@ package fop.w5dll;
 public class IntDoubleList {
     private IntDoubleListElement head;
     private IntDoubleListElement tail;
-    
+
     public IntDoubleList() {
         head = null;
         tail = null;
     }
-    
+
+    public IntDoubleListElement getFirstElement() {
+        return head;
+    }
+
+    public IntDoubleListElement getLastElement() {
+        return tail;
+    }
+
     public void append(int info) {
-        IntDoubleListElement newElement = new IntDoubleListElement(info);
+        IntDoubleListElement newEle = new IntDoubleListElement(info);
         if (head == null) {
-            head = newElement;
+            head = newEle;
+        } else {
+            tail.next = newEle;
+            newEle.prev = tail;
         }
-        else {
-            tail.next = newElement;
-            newElement.prev = tail;
-        }
-        tail = newElement;
+        tail = newEle;
     }
-    
+
     public int size() {
-        IntDoubleListElement temp = head;
-        int j = 0;
-        while (temp != null) {
-            temp = temp.next;
-            j++;
+        IntDoubleListElement head = this.head;
+        int size = 0;
+        while (head != null) {
+            size++;
+            head = head.next;
         }
-        return j;
+        return size;
     }
-    
+
     public int get(int pos) {
-        if (pos < 0 || this.size() <= pos) {
-            System.out.println("Position exceeds list!");
-            return 0;
+        if (pos < 0 || pos >= this.size()) {
+            System.out.println("Postion exceeds sizes.");
+            return -1;
         }
-        
-        IntDoubleListElement temp = head;
-        for (int i = 0; i < pos; i++)
-            temp = temp.next;
-        
-        return temp.getInfo();
+        IntDoubleListElement ele = this.head;
+        for (int i = 0; i < pos; i++) {
+            ele = ele.next;
+        }
+        return ele.getInfo();
     }
-    
-    
+
+
     public void remove(int pos) {
         IntDoubleListElement temp = head;
         if (this.size() <= pos || pos < 0) {
-            System.out.println("Position ist groesser als Liste!");
-        }
-        else if (pos == 0) {
+            System.out.println("Position is out of bounds.");
+        } else if (pos == 0) {
             head = head.next;
-            if (head != null)
-                head.prev = null;
-            else
-                tail = null;
-        }
-        else {
+            if (head != null) head.prev = null;
+            else tail = null;
+        } else {
             int j = 0;
             while (j < pos - 1) {
                 temp = temp.next;
                 j++;
             }
-            
             temp.next = temp.next.next;
-            if (temp.next != null)
-                temp.next.prev = temp;
-            else
-                // If temp.next == null, the end of the list has been reached
-                tail = temp;
+            if (temp.next != null) temp.next.prev = temp;
+            else tail = temp;
         }
     }
-    
+
     @Override
     public String toString() {
         IntDoubleListElement temp = head;
-        StringBuilder ret = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         while (temp != null) {
-            ret.append(temp.getInfo());
-            if (temp.next != null)
-                ret.append(',');
+            stringBuilder.append(temp.getInfo());
+            if (temp.next != null) stringBuilder.append(',');
             temp = temp.next;
         }
-        return ret.toString();
+        return stringBuilder.toString();
     }
-    
-    
+
+
     public boolean isEqual(IntDoubleList other) {
-        IntDoubleListElement mytemp = head;
-        IntDoubleListElement othertemp = other.head;
-        while (mytemp != null) {
-            if (!mytemp.isEqual(othertemp))
-                return false;
-            mytemp = mytemp.next;
-            othertemp = othertemp.next;
+        IntDoubleListElement thisEle = head;
+        IntDoubleListElement otherEle = other.head;
+        while (thisEle != null) {
+            if (!thisEle.isEqual(otherEle)) return false;
+            thisEle = thisEle.next;
+            otherEle = otherEle.next;
         }
-        return othertemp == null;
+        return otherEle == null;
     }
-    
-    
+
+
     public int sum() {
-        IntDoubleListElement temp = head;
-        int ret = 0;
-        while (temp != null) {
-            ret = ret + temp.getInfo();
-            temp = temp.next;
+        IntDoubleListElement head = this.head;
+        int sum = 0;
+        while (head != null) {
+            sum += head.getInfo();
+            head = head.next;
         }
-        return ret;
+        return sum;
     }
-    
-    
-    public IntDoubleListElement getFirstElement() {
-        return head;
-    }
-    
-    public IntDoubleListElement getLastElement() {
-        return tail;
-    }
-    
-    
+
+
     // copying internal elements
     public IntDoubleList copy() {
-        IntDoubleList ret = new IntDoubleList();
-        IntDoubleListElement temp = head;
-        while (temp != null) {
-            ret.append(temp.getInfo());
-            temp = temp.next;
+        IntDoubleListElement head = this.head;
+        IntDoubleList copy = new IntDoubleList();
+        while (head != null) {
+            copy.append(head.getInfo());
+            head = head.next;
         }
-        return ret;
+        return copy;
     }
-    
-    
-    public int[] search(int intValue) {
-        int[] results = new int[this.size()];
-        int j = 0;
-        int i = 0;
-        IntDoubleListElement temp = head;
-        while (temp != null) {
-            if (temp.getInfo() == intValue) {
-                results[j] = temp.getInfo();
-                j++;
+
+
+    public IntDoubleListElement[] search(int intValue) {
+        IntDoubleListElement head = this.head;
+        int length = 0;
+        while (head != null) {
+            if (head.getInfo() == intValue) {
+                length++;
             }
-            temp = temp.next;
-            i++;
+            head = head.next;
         }
-        int[] ret = new int[j];
-        System.arraycopy(results, 0, ret, 0, j);
-        return ret;
+        head = this.head;
+        IntDoubleListElement[] elements = new IntDoubleListElement[length];
+        int i = 0;
+        while (head != null) {
+            if (head.getInfo() == intValue) {
+                elements[i] = head;
+                i++;
+            }
+            head = head.next;
+        }
+        return elements;
     }
+
 }

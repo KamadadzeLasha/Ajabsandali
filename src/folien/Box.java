@@ -21,8 +21,8 @@ public class Box<T> {
     }
 
     public static void main(String[] args) {
-        Box<Pizza> stringBox = new Box(new Pizza(123,12,"yeammy"));
-        Box<List> intBox = new Box(new List(12));
+        Box<Pizza> stringBox = new Box<>(new Pizza(123,12,"yeammy"));
+        Box<List> intBox = new Box<>(new List(12));
         intBox.inspect(stringBox);
     }
 }

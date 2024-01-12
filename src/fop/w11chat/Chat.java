@@ -13,13 +13,13 @@ import java.net.UnknownHostException;
 public class Chat extends MiniJava {
     public static void main(String[] args) {
         Socket sock;
-        sock = null;
         boolean server = false;
         while (true) {
-            String input = readString(
-                    "Enter <port> in order to start the chat server "
-                            + "\n or <host>:<port> in order to connect to a running server. "
-                            + "\n Enter exit for exiting the chat.\n");
+            String input = readString("""
+                    Enter <port> in order to start the chat server\s
+                     or <host>:<port> in order to connect to a running server.\s
+                     Enter exit for exiting the chat.
+                    """);
             if (input.equals("exit")) {
                 System.out.println("Exiting.");
                 return;
@@ -28,10 +28,7 @@ public class Chat extends MiniJava {
             int posColon = input.indexOf(':');
             try {
                 if (posColon != -1) {
-                    sock = new Socket(
-                            InetAddress.getByName(input.substring(0, posColon)),
-                            Integer.parseInt(input.substring(posColon + 1)));
-                    break;
+                    sock = new Socket(InetAddress.getByName(input.substring(0, posColon)), Integer.parseInt(input.substring(posColon + 1)));
                 } else {
                     int port = Integer.parseInt(input);
                     ServerSocket serverSock = new ServerSocket(port);
@@ -39,8 +36,8 @@ public class Chat extends MiniJava {
                     sock = serverSock.accept();
                     serverSock.close();
                     server = true;
-                    break;
                 }
+                break;
             } catch (UnknownHostException e) {
                 write("Host unknown, try again!");
             } catch (NumberFormatException e) {

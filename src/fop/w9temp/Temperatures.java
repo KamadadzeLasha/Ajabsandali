@@ -4,10 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -15,7 +12,7 @@ import java.util.stream.Stream;
 public abstract class Temperatures {
     protected List<Temperature> data;
 
-    public Temperatures(String filepath) {
+    public Temperatures (String filepath) {
         data = parseCsvFile(new File(filepath));
     }
     
@@ -24,7 +21,7 @@ public abstract class Temperatures {
     }
 
     public void printSummary() {
-        print("Number of temperature datapoints:", size());
+        print("Number of temperature data-points:", size());
         print("Cities:", cities());
         print("Countries:", countries());
         print("Coldest Country (absolute Temperature):", coldestCountryAbs());
@@ -44,14 +41,14 @@ public abstract class Temperatures {
         try {
             return Files.lines(csvFile.toPath()).skip(1) // skip header of csv file
                     .map(lineToTemperature) // convert line to DateTemperature
-                    .filter(elem -> elem != null) // filter null values due to parsing errors
+                    .filter(Objects::nonNull) // filter null values due to parsing errors
                     .collect(Collectors.toList());
         } catch (IOException e) {
             throw new RuntimeException("File " + csvFile + " not found.");
         }
     }
 
-    static private Function<String, Temperature> lineToTemperature = (line) -> {
+    static private final Function<String, Temperature> lineToTemperature = (line) -> {
         try {
             final String[] fields = line.split(","); // a CSV with comma-separated lines
             final LocalDate date = LocalDate.parse(fields[0]);

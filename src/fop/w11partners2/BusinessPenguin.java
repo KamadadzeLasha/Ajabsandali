@@ -22,8 +22,12 @@ public class BusinessPenguin {
         return balance;
     }
 
-    public synchronized void sellFish(int price) {
-        balance += price / 2;
+    /**
+     * A synchronization of this method results in a deadlock,
+     * synchronization should be used as rarely as possible.
+     */
+    public void sellFish(int price) {
+        addMoney(price / 2);
         partner.addMoney(price / 2);
     }
 

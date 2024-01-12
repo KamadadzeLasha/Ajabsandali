@@ -78,6 +78,10 @@ public class Penguin extends MiniJava {
                 {3, 3, 3, 3, 3, 3}};
     }
     public static int[][] generateExampleWorldTwo(){
-        return new int[][] {{0,0,0,2}, {0,0,0,1}, {0,1,3,4}, {3,4,3,3}};
+        return new int[][] {
+                {0,0,0,2},
+                {0,0,0,1},
+                {0,1,3,4},
+                {3,4,3,3}};
     }
 }

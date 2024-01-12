@@ -6,8 +6,10 @@ public class ProbabilisticSearch extends MiniJava {
     public static void main(String[] args) {
         int[] example1 = new int[]{6, 20, 22, 35, 51, 54, 59, 74, 77, 80, 87, 94, 97};
         int[] example2 = new int[]{0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 100};
-        int[] x = probalisticSearch(example1, 59);
-        write(x[0] + " " + x[1]);
+        int[] x = probalisticSearch(example2, 59);
+
+        System.out.println(drawCard());
+
     }
 
     public static int[] searchUp(int[] arr, int position, int old_position, int value, int power, int steps) {
