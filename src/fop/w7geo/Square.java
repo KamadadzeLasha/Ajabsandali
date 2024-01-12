@@ -1,7 +1,7 @@
 package fop.w7geo;
 
 public class Square extends BaseArea {
-    private final double length;
+    private double length;
 
     public Square(double length) {
         this.length = length;
